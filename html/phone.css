@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Berkshire+Swash");
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+@import url("https://gitcdn.xyz/repo/octoshrimpy/blokkfont/master/blokkfont_original.css");
+@import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css");
+body * {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.fa, .fas, .far, .fab, .fal {
+  transition: all 0.15s ease-in-out;
+}
+
+body .main {
+  opacity: 1;
+}
+
+.menu-list a.is-active {
+  background-color: #0f2439;
+  color: #fff;
+}
+
+/*
+███    ███  █████  ██ ███    ██
+████  ████ ██   ██ ██ ████   ██
+██ ████ ██ ███████ ██ ██ ██  ██
+██  ██  ██ ██   ██ ██ ██  ██ ██
+██      ██ ██   ██ ██ ██   ████
+*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+}
+
+.__content {
+  padding: 3rem 6rem;
+  display: flex;
+  flex-grow: 1;
+  background-color: #ecf0f1;
+}
+.__content .card {
+  flex-grow: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: #fff;
+}
+.__content .card .level.card-header {
+  background: #a4aeb5;
+  color: #ecf0f1;
+  padding: 1rem;
+}
+
+.phone {
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  max-height: 50rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.phone .p_header {
+  margin: 0;
+  top: 0;
+  width: 100%;
+  padding: 0.25rem 0.75rem;
+  height: 2rem;
+  background: #2f3136;
+  color: #ecf0f1;
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+}
+.phone .p_header .icon.bat {
+  transform: rotate(270deg);
+  font-size: 85%;
+}
+.phone .p_header .bat-level {
+  font-size: 85%;
+}
+.phone .p_content {
+  background: #fff;
+  flex-grow: 1;
+}
+.phone .p_navbar {
+  background: #000;
+  color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+}
+.phone .p_navbar .icon {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.p_content .a_header {
+  background: #2f3136;
+  color: #ecf0f1;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+.p_content .a_header .logo {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.p_content .a_card {
+  background: #fff;
+  padding: 0.5rem;
+  margin: 0.5rem 0.5rem;
+}
